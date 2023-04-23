@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Job application form
+    </title>
+  </head>
+  <body>
+   <div class="formLayout">
+      <h2>iDaTos Technologies Company</h2>
+      <h1>Computer Programmer Job Application Form</h1>
+      <hr><br>
+      <FORM METHOD="post" ACTION=mailto:johndoe@gmail.com>
+        <b>Position Applied for:
+          </b> <INPUT type="text" name="position" size="30" autofocus>
+        Job reference code:
+          <INPUT type="text" name="ref" size="15" bgcolor = "yellow"><br>
+        <hr><br>
+        First Name:
+          <INPUT type="text" name="firstname" size="30" maxlength="30"><br>
+        Family Name:
+          <INPUT type="text" name="familyname" size="30"><br>
+        Nationality:
+          <INPUT type="text" name="nationality" size="30"><br>
+        Date of birth:
+          <INPUT id="dob" name="dob" type = "date"><br>
+        Address:<br>
+          <TEXTAREA name="address" cols="30" rows="5"></TEXTAREA>
+        <br>
+        Telephone:
+          <INPUT type="text" name="phone" size="30" maxlength="30" required>
+        Email:
+          <INPUT type="text" name="email" size="30" maxlength="30" required /><br>
+        <hr><br>
+        <b>Educational History</b>
+        <br>
+        School/College, Course Studied, Qualifications received, Grades:
+          <TEXTAREA name="eduhistory" rows="6" cols="70"></TEXTAREA>
+        <br>
+        <b>Employment History</b>
+        <br>
+        Employer, Date, Position/responsibilities:
+          <TEXTAREA name="emphistory" rows="6" cols="70"></TEXTAREA><br>
+        <b>Personal Statement:</b>
+        <br>
+          <TEXTAREA name="statement" placeholder="enter text her"rows="6" cols="70"></TEXTAREA>
+        <br><br>
+        <hr><br>
+        <b>YEARS OF WORK EXPERIENCE:</b>
+        <br>
+          <input type="range" min="0" max="10" step="1" value="0">
+        <hr><br>
+        <b>First referee Details:</b>
+        <br><br>
+          First name:
+            <INPUT type="text" name="firstname1" size="30">
+          Family name:
+            <INPUT type="text" name="surname1" size="30">
+        <br>
+          Title:
+            <INPUT type="text" name="title" size="8">
+          Occupation:
+            <INPUT type="text" name="occ1" size="30"><br>
+          relationship:
+            <INPUT type="text" name="rel1" size="20"><br>
+          Address:
+        <br>
+            <TEXTAREA name="address1" rows="4" cols="30"></TEXTAREA>
+        <br>
+          Telephone:
+            <INPUT type="tel" name="phone1" size="30">
+          Email:
+            <INPUT type="email" name="email1" size="30">
+        <br><br>
+        <b>Second referee Details:</b>
+        <br><br>
+          First name:
+            <INPUT type="text" name="firstname1" size="30">
+          Family name:
+            <INPUT type="text" name="surname1" size="30"><br>
+          Title:
+            <INPUT type="text" name="title" size="8">
+          Occupation:
+            <INPUT type="text" name="occ1" size="30"><br>
+          relationship:
+            <INPUT type="text" name="rel1" size="20"><br>
+          Address:<br>
+            <TEXTAREA name="address1" rows="4" cols="30"></TEXTAREA>
+        <br>
+          Telephone:
+            <INPUT type="tel" name="phone1" size="30">
+          Email:
+            <INPUT type="email" name="email1" size="30">
+        <br><br>
+        <hr><br>
+        <INPUT type="submit" name="Submit" value="Submit">
+        <INPUT type="reset" name="reset" value="reset">
+      </FORM>
+    </div>
+  </body>
+</html>

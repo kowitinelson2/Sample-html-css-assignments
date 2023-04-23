@@ -1,0 +1,5 @@
+.headlines, .sublines, .infotext {font-face:arial; color:black; background:yellow;
+font-weight:bold;}
+.headlines {font-size:14pt;}
+.sublines {font-size:12pt;}
+.infotext {font-size: 10pt;}
